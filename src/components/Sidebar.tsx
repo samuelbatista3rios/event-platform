@@ -19,7 +19,7 @@ interface GetLessonsQueryResponse{
         title: string
         slug: string
         availableAt: string
-        lessonType: 'Live' | 'class'
+        lessonType: 'live' | 'class'
     }[]
 }
 
